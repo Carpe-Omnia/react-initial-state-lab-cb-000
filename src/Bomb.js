@@ -4,14 +4,12 @@ export default class Bomb extends React.Component {
   constructor(props) {
     super() ;
     this.State = {
-      currentSlideIndex: 0
+      secondsLeft: this.props.initialCount
     }
   }
   render() {
     return (
-      <div>
-        `I am on slide ${this.state.currentSlideIndex}`
-      </div>
+    
     )
   }
 }
