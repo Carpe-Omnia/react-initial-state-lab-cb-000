@@ -2,7 +2,7 @@ import React from 'react' ;
 
 export default class Bomb extends React.Component {
   constructor(props) {
-    super() ; 
+    super() ;
     this.State = {
       currentSlideIndex: 0
     }
@@ -11,7 +11,7 @@ export default class Bomb extends React.Component {
     return (
       <div>
         `I am on slide ${this.state.currentSlideIndex}`
-      </div>  
+      </div>
     )
   }
 }
